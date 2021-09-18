@@ -5,7 +5,7 @@ from app.items import ZennArticlesItem
 class ZennMyArticleSpiderSpider(scrapy.Spider):
     name = 'zenn_my_article_spider'
     allowed_domains = ['zenn.dev']
-    start_urls = ['http://zenn.dev/yktakaha4']
+    start_urls = ['https://zenn.dev/yktakaha4']
 
     def parse(self, response: Response):
         for article in response.css('*[class*="ArticleCard_container__"]'):
