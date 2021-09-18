@@ -6,7 +6,9 @@
 import scrapy
 
 
-class AppItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class ZennArticlesItem(scrapy.Item):
+    url = scrapy.Field()
+    article_type = scrapy.Field()
+    title = scrapy.Field()
+    likes = scrapy.Field()
+    date = scrapy.Field()
