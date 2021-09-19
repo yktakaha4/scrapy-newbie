@@ -6,8 +6,10 @@ authors = ["Yuuki Takahashi <20282867+yktakaha4@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Scrapy = "^2.5.0"
+Scrapy = "2.4.1"
 peewee = "^3.14.4"
+scrapyd-client = "^1.1.0"
+scrapyd = "^1.2.1"
 
 [tool.poetry.dev-dependencies]
 
